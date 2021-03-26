@@ -34,6 +34,8 @@
 - [79款 Netgear 路由器遭远程接管0day](https://github.com/grimm-co/NotQuite0DayFriday/blob/master/2020.06.15-netgear/exploit.py)
 - [dlink-dir610-exploits-Exploits for CVE-2020-9376 and CVE-2020-9377](https://github.com/renatoalencar/dlink-dir610-exploits)
 - [wacker：一组脚本，可辅助对WPA3接入点执行在线词典攻击](https://github.com/blunderbuss-wctf/wacker)
+- [CVE-2020-24581 D-Link DSL-2888A 远程命令执行漏洞分析](./books/CVE-2020-24581%20D-Link%20DSL-2888A%20远程命令执行漏洞分析.pdf)-[原地址](https://www.anquanke.com/post/id/229323)
+- [CNVD-2021-14536_锐捷RG-UAC统一上网行为管理审计系统账号密码信息泄露漏洞](./CNVD-2021-14536_锐捷RG-UAC统一上网行为管理审计系统账号密码信息泄露漏洞.md)
 
 ## <span id="head4">Web APP</span>
 
@@ -120,7 +122,7 @@
 - [CVE-2019-19781-Remote Code Execution Exploit for Citrix Application Delivery Controller and Citrix Gateway](https://github.com/projectzeroindia/CVE-2019-19781)
 - [CVE-2019-19781.nse---use Nmap check  Citrix ADC Remote Code Execution](https://github.com/cyberstruggle/DeltaGroup/tree/master/CVE-2019-19781)
 - [Mysql Client 任意文件读取攻击链拓展](https://paper.seebug.org/1112/)
-- [CVE-2020-5504-phpMyAdmin注入(需要登录)](https://xz.aliyun.com/t/7092)
+- [CVE-2020-5504-phpMyAdmin注入(需要登录)](https://xz.aliyun.com/t/7092)-[另一篇关于次漏洞的 复现](https://mp.weixin.qq.com/s/epQdTdy6E8QdQTqBbq_Edw)
 - [CVE-2020-5509-Car Rental Project 1.0版本中存在远程代码执行漏洞](https://github.com/FULLSHADE/CVE-2020-5509-POC)
 - [CryptoAPI PoC CVE-2020-0601](https://github.com/kudelskisecurity/chainoffools/blob/master/README.md)|[另一个PoC for CVE-2020-0601](https://github.com/ollypwn/CVE-2020-0601)
 - [New Weblogic RCE  (CVE-2020-2546、CVE-2020-2551) CVE-2020-2546](https://mp.weixin.qq.com/s/Q-ZtX-7vt0JnjNbBmyuG0w)|[WebLogic WLS核心组件RCE分析（CVE-2020-2551）](https://www.anquanke.com/post/id/199695)|[CVE-2020-2551-Weblogic IIOP 反序列化EXP](https://github.com/Y4er/CVE-2020-2551)
@@ -188,6 +190,22 @@
 - [CVE-2020-13935-Tomcat的WebSocket安全漏洞可导致拒绝服务攻击](https://github.com/RedTeamPentesting/CVE-2020-13935)
 - [Douphp 网站后台存储型XSS漏洞分析](./books/Douphp%20网站后台存储型XSS漏洞分析.pdf)-[原文地址](https://mp.weixin.qq.com/s/dmFoMJaUH_ULnhu_T9jSGA)
 - [Adminer 简单的利用](./books/Adminer简单的利用.pdf)-[原文地址](https://mp.weixin.qq.com/s/fgi4S-2vdvc-pSmFGGQzgw)
+- [骑士CMS assign_resume_tpl远程代码执行分析](./books/骑士CMS%20远程代码执行分析%20-%20Panda.pdf)-[原文地址](https://www.cnpanda.net/codeaudit/827.html)
+- [kibana由原型污染导致RCE的漏洞（CVE-2019-7609）](https://github.com/mpgn/CVE-2019-7609)-[YouTube相关报告](https://www.youtube.com/watch?v=KVDOIFeRaPQ)
+- [cve-2019-17558-apache solr velocity 注入远程命令执行漏洞 ](https://github.com/SDNDTeam/CVE-2019-17558_Solr_Vul_Tool)
+- [Weblogic Server（CVE-2021-2109 ）远程代码执行漏洞](./books/Weblogic%20Server（CVE-2021-2109%20）远程代码执行漏洞复现.pdf)-[原文地址](https://mp.weixin.qq.com/s/kEi1s3Ki-h7jjdO7gyDsaw)
+- [辰光PHP客服系统源码3.6 前台 getshell-0day](./books/辰光PHP客服系统源码3.620%前台20%getshell-0day.pdf)|[原文地址](https://mp.weixin.qq.com/s/jWqhZYXuBQ2kfpvnWsfeXA)
+- [zzzcms(asp)前台Getshell](./zzzcms(asp)前台Getshell.md)
+- [wjdhcms前台Getshell(条件竞争)](./books/wjdhcms前台Getshell(条件竞争).pdf)-[原文地址](https://www.t00ls.net/articles-59727.html)
+- [glpi_cve-2020-11060](https://github.com/zeromirror/cve_2020-11060)-[相关文章](https://xz.aliyun.com/t/9144)
+- [CVE-2021-21315-PoC-Node.js组件systeminformation代码注入漏洞](https://github.com/ForbiddenProgrammer/CVE-2021-21315-PoC)
+- [CVE-2021-23132-Joomla! 目录遍历导致 RCE 漏洞EXP](https://github.com/HoangKien1020/CVE-2021-23132)|[复现文章](./books/Joomla!%E7%9B%AE%E5%BD%95%E9%81%8D%E5%8E%86%E5%AF%BC%E8%87%B4RCE%E6%BC%8F%E6%B4%9E%E5%A4%8D%E7%8E%B0%EF%BC%88CVE-2021-23132%EF%BC%89.pdf)-[原文链接](https://mp.weixin.qq.com/s/rRTCG4Q2X310KoqZNvpuPA)
+- [对ShirneCMS的一次审计思路-反序列化getshell](./books/对ShirneCMS的一次审计思路.pdf)-[原文地址](https://mp.weixin.qq.com/s/aps0k7O6BO-UQ0gXbTN3KQ)-[cms地址1](https://gitee.com/shirnecn/ShirneCMS)-[cms地址2](https://github.com/80027505/shirne)
+- [Apache Solr最新版任意文件读取0day](./books/Apache%20Solr最新版任意文件读取0day.pdf)|[原文地址](https://mp.weixin.qq.com/s/HMtAz6_unM1PrjfAzfwCUQ)
+- [KiteCMS的漏洞挖掘之旅(任意文件写入、任意文件读取和反序列化)](./books/KiteCMS的漏洞挖掘之旅(任意文件写入、任意文件读取和反序列化).pdf)|[原文地址](https://mp.weixin.qq.com/s/ETm92MHTNksURjOPNqFgHg)
+- [CVE-2021-22986-F5 BIG-IP 远程代码执行漏洞EXP](https://github.com/S1xHcL/f5_rce_poc)
+- [CNVD-2021-10543：MessageSolution 企业邮件归档管理系统 EEA 存在信息泄露漏洞](https://github.com/Henry4E36/CNVD-2021-10543)
+- [CVE-2021-26295-POC](https://github.com/yumusb/CVE-2021-26295-POC)
 
 ## <span id="head5"> 提权辅助相关</span>
 
@@ -195,7 +213,7 @@
 - [windows 溢出提权小记](https://klionsec.github.io/2017/04/22/win-0day-privilege/)/[本地保存了一份+Linux&Windows提取脑图](./tools/Local%20Privilege%20Escalation.md)
 - [Windows常见持久控制脑图](./tools/Windows常见持久控制.png)
 - [CVE-2019-0803 Win32k漏洞提权工具](./CVE-2019-0803)
-- [脏牛Linux提权漏洞](https://github.com/Brucetg/DirtyCow-EXP)
+- [脏牛Linux提权漏洞](https://github.com/Brucetg/DirtyCow-EXP)-[reverse_dirty-更改的脏牛提权代码，可以往任意文件写入任意内容](https://github.com/Rvn0xsy/reverse_dirty)
 - [远控免杀从入门到实践之白名单（113个）](https://github.com/TideSec/BypassAntiVirus)|[远控免杀从入门到实践之白名单（113个）总结篇.pdf](./books/远控免杀从入门到实践之白名单（113个）总结篇.pdf)
 - [Linux提权-CVE-2019-13272  A linux kernel Local Root Privilege Escalation vulnerability with PTRACE_TRACEME](https://github.com/jiayy/android_vuln_poc-exp/tree/master/EXP-CVE-2019-13272-aarch64)
 - [Linux权限提升辅助一键检测工具](https://github.com/mzet-/linux-exploit-suggester)
@@ -225,44 +243,93 @@
 - [【Linux提权】对Linux提权的简单总结](./books/对Linux提权的简单总结.pdf)
 - [【Windows提权】wesng-Windows提权辅助脚本](https://github.com/bitsadmin/wesng)
 - [【Windows提权】dazzleUP是一款用来帮助渗透测试人员进行权限提升的工具，可以在window系统中查找脆弱面进行攻击。工具包括两部分检查内容，exploit检查和错误配置检查。](https://github.com/hlldz/dazzleUP)
+- [【Windows提权】KernelHub-近二十年Windows权限提升集合](https://github.com/Ascotbe/KernelHub)
 
 ## <span id="head6"> PC</span>
 
-- [ 微软RDP远程代码执行漏洞（CVE-2019-0708）](./BlueKeep)
+- [ 微软RDP远程代码执行漏洞（CVE-2019-0708）](./BlueKeep)-[CVE-2019-0708-EXP-Windows-CVE-2019-0708-EXP-Windows版单文件exe版,运行后直接在当前控制台反弹System权限Shell](https://github.com/cbwang505/CVE-2019-0708-EXP-Windows)
+
 - [CVE-2019-0708-python版](./BlueKeep/bluekeep-CVE-2019-0708-python)
+
 - [MS17-010-微软永恒之蓝漏洞](https://github.com/Mr-xn/MS17-010)
+
 - [macOS-Kernel-Exploit](./macOS-Kernel-Exploit)
+
 - [CVE-2019-1388 UAC提权 (nt authority\system)](https://github.com/jas502n/CVE-2019-1388)
+
 - [CVE-2019-1405和CVE-2019-1322：通过组合漏洞进行权限提升 Microsoft Windows 10 Build 1803 < 1903 - 'COMahawk' Local Privilege Escalation](https://github.com/apt69/COMahawk)
+
 - [CVE-2019-11708](https://github.com/0vercl0k/CVE-2019-11708)
+
 - [Telegram(macOS v4.9.155353) 代码执行漏洞](https://github.com/Metnew/telegram-links-nsworkspace-open)
+
 - [Remote Desktop Gateway RCE bugs CVE-2020-0609 & CVE-2020-0610](https://www.kryptoslogic.com/blog/2020/01/rdp-to-rce-when-fragmentation-goes-wrong/)
+
 - [Microsoft SharePoint - Deserialization Remote Code Execution](https://github.com/Voulnet/desharialize/blob/master/desharialize.py)
+
 - [CVE-2020-0728-Windows Modules Installer Service 信息泄露漏洞](https://github.com/irsl/CVE-2020-0728/)
+
 - [CVE-2020-0618: 微软 SQL Server Reporting Services远程代码执行（RCE）漏洞](https://www.mdsec.co.uk/2020/02/cve-2020-0618-rce-in-sql-server-reporting-services-ssrs/)|[GitHub验证POC(其实前文的分析文章也有)](https://github.com/euphrat1ca/CVE-2020-0618)
+
 - [CVE-2020-0767Microsoft ChakraCore脚本引擎【Edge浏览器中的一个开源的ChakraJavaScript脚本引擎的核心部分】安全漏洞](https://github.com/phoenhex/files/blob/master/pocs/cve-2020-0767.js)
+
 - [CVE-2020-0688：微软EXCHANGE服务的远程代码执行漏洞](https://github.com/random-robbie/cve-2020-0688)|[CVE-2020-0688_EXP---另一个漏洞检测利用脚本](https://github.com/Yt1g3r/CVE-2020-0688_EXP)|[又一个cve-2020-0688利用脚本](https://github.com/Ridter/cve-2020-0688)|[Exploit and detect tools for CVE-2020-0688](https://github.com/zcgonvh/CVE-2020-0688)
+
 - [CVE-2020-0674: Internet Explorer远程代码执行漏洞检测](https://github.com/binaryfigments/CVE-2020-0674)
+
 - [CVE-2020-8794: OpenSMTPD 远程命令执行漏洞](./CVE-2020-8794-OpenSMTPD%20远程命令执行漏洞.md)
+
 - [Linux平台-CVE-2020-8597: PPPD 远程代码执行漏洞](https://github.com/marcinguy/CVE-2020-8597)
+
 - [Windows-CVE-2020-0796：疑似微软SMBv3协议“蠕虫级”漏洞](https://cert.360.cn/warning/detail?id=04f6a686db24fcfa478498f55f3b79ef)|[相关讨论](https://linustechtips.com/main/topic/1163724-smbv3-remote-code-execution-cve-2020-0796/)|[CVE-2020–0796检测与修复](CVE-2020-0796检测与修复.md)|[又一个CVE-2020-0796的检测工具-可导致目标系统崩溃重启](https://github.com/eerykitty/CVE-2020-0796-PoC)
+
 - [SMBGhost_RCE_PoC（CVE-2020-0796）](https://github.com/chompie1337/SMBGhost_RCE_PoC)
+
 - [WinRAR 代码执行漏洞 (CVE-2018-20250)-POC](https://github.com/Ridter/acefile)|[相关文章](https://research.checkpoint.com/2019/extracting-code-execution-from-winrar/)|[全网筛查 WinRAR 代码执行漏洞 (CVE-2018-20250)](https://xlab.tencent.com/cn/2019/02/22/investigating-winrar-code-execution-vulnerability-cve-2018-20250-at-internet-scale/)
+
 - [windows10相关漏洞EXP&POC](https://github.com/nu11secur1ty/Windows10Exploits)
+
 - [shiro rce 反序列 命令执行 一键工具](https://github.com/wyzxxz/shiro_rce)
+
 - [CVE-2019-1458-Win32k中的特权提升漏洞【shell可用-Windows提取】](https://github.com/unamer/CVE-2019-1458)
+
 - [CVE-2019-1253-Windows权限提升漏洞-AppXSvc任意文件安全描述符覆盖EoP的另一种poc](https://github.com/sgabe/CVE-2019-1253)|[CVE-2019-1253](https://github.com/padovah4ck/CVE-2019-1253)
+
 - [BypassAV【免杀】Cobalt Strike插件，用于快速生成免杀的可执行文件](https://github.com/hack2fun/BypassAV)
+
+- [CS-Loader-cobalt strike免杀生成](https://github.com/Gality369/CS-Loader)
+
 - [CVE-2020-0674：Internet Explorer UAF 漏洞exp【在64位的win7测试了IE 8, 9, 10, and 11】](https://github.com/maxpl0it/CVE-2020-0674-Exploit)
+
 - [SMBGhost_AutomateExploitation-SMBGhost (CVE-2020-0796) Automate Exploitation and Detection](https://github.com/Barriuso/SMBGhost_AutomateExploitation)
+
 - [MS Windows OLE 远程代码执行漏洞(CVE-2020-1281)](https://github.com/guhe120/Windows-EoP/tree/master/CVE-2020-1281)
+
 - [CVE-2020-1350-Windows的DNS服务器RCE检测的powershell脚本](https://github.com/T13nn3s/CVE-2020-1350)|[CVE-2020-1350-DoS](https://github.com/maxpl0it/CVE-2020-1350-DoS)
+
 - [CVE-2020-1362-Microsoft Windows WalletService权限提升漏洞](https://github.com/Q4n/CVE-2020-1362)
+
 - [CVE-2020-10713-GRUB2 本地代码执行漏洞](https://github.com/eclypsium/BootHole)
+
 - [CVE-2020-1313-Microsoft Windows Update Orchestrator Service权限提升漏洞，可用于Windows提权操作，支持新版的Windows server 2004](https://github.com/irsl/CVE-2020-1313)
+
 - [CVE-2020-1337-exploit-Windows 7/8/10上Print Spooler组件漏洞修复后的绕过](https://github.com/math1as/CVE-2020-1337-exploit/)|[cve-2020-1337-poc](https://github.com/sailay1996/cve-2020-1337-poc)
+
 - [CVE-2020-1472: NetLogon特权提升漏洞（接管域控制器）](https://github.com/VoidSec/CVE-2020-1472)|[CVE-2020-1472 .NET版本的，可以编译成独立EXE文件，可以尝试webshell执行](https://github.com/nccgroup/nccfsas/tree/main/Tools/SharpZeroLogon/SharpZeroLogon)|[同类型脚本](https://github.com/SecuraBV/CVE-2020-1472)|[同类型脚本二](https://github.com/dirkjanm/CVE-2020-1472)|[同类型脚本三](https://github.com/risksense/zerologon)|[同类型脚本4](https://github.com/bb00/zer0dump)
 
+- [awesome-browser-exploit-浏览器漏洞集合](https://github.com/Escapingbug/awesome-browser-exploit)
+
+- [【Linux提权】CVE-2021-3156-SUDO缓冲区溢出漏洞](https://github.com/blasty/CVE-2021-3156)
+
+- [CVE-2021-21972-任意文件上传](https://github.com/NS-Sp4ce/CVE-2021-21972)|[CVE-2021-21972-vCenter-6.5-7.0-RCE-POC](https://github.com/QmF0c3UK/CVE-2021-21972-vCenter-6.5-7.0-RCE-POC)|[CVE-2021-21972](https://github.com/yaunsky/CVE-2021-21972)
+
+- [CVE-2021-26855-ssrf通过golang实现，可读取邮件标题，id，FQND以及下载邮件功能](https://github.com/Mr-xn/CVE-2021-26855)|[针对CVE-2021-26855进行利用下载邮件的python脚本](https://github.com/Mr-xn/CVE-2021-26855-d)|[exchange-ssrf-rce-利用SSRF直接获取命令执行权限](https://github.com/jeningogo/exchange-ssrf-rce)
+
+    [exprolog-ProxyLogon Full Exploit Chain PoC (CVE-2021–26855, CVE-2021–26857, CVE-2021–26858, CVE-2021–27065)](https://github.com/herwonowr/exprolog)
+
+- [CVE-2021-21978- VMware View Planner Harness 4.X 未授权任意文件上传至RCE](https://github.com/GreyOrder/CVE-2021-21978)
+
+- [VMware vCenter Server RCE_SSRF[CVE-2021-21972_3]](./books/VMware%20vCenter%20Server%20RCE_SSRF%5BCVE-2021-21972_3%5D.pdf)-[原文地址](https://mp.weixin.qq.com/s/NoqpuklgwNOalJgAuFnlcA)
 
 ## <span id="head7"> tools-小工具集版本合</span>
 
@@ -287,9 +354,11 @@
 - [隐藏wifi-ssid获取 · theKingOfNight's Blog](./books/隐藏wifi-ssid获取%20·%20theKingOfNight's%20Blog.pdf)
 - [crt.sh证书/域名收集](./tools/crt.sh证书收集.py)
 - [TP漏洞集合利用工具py3版本-来自奇安信大佬Lucifer1993](https://github.com/Mr-xn/TPscan)
+- [TPScan.jar-Java编写的单文件版的TP漏洞扫描利用](./tools/TPScan.jar)-[源处](https://github.com/tangxiaofeng7/TPScan)
 - [Python2编写的struts2漏洞全版本检测和利用工具-来自奇安信大佬Lucifer1993](https://github.com/Mr-xn/struts-scan)
 - [sqlmap_bypass_D盾_tamper](./tools/sqlmap_bypass_D盾_tamper.py)
 - [sqlmap_bypass_安全狗_tamper](./tools/sqlmap_bypass_安全狗_tamper.py)
+- [sqlmap_bypass安全狗2tamper](./tools/sqlmap_bypass_安全狗2_tamper.py)
 - [sqlmap_bypass_空格替换成换行符-某企业建站程序过滤_tamper](./tools/sqlmap_bypass_空格替换成换行符-某企业建站程序过滤_tamper.py)
 - [sqlmap_bypass_云锁_tamper](./tools/sqlmap_bypass_云锁_tamper.py)
 - [sqlmap bypass云锁tamper（利用云锁的注释不拦截缺陷，来自t00ls师傅）](https://github.com/Hsly-Alexsel/Bypass)-[t00ls原文地址](https://www.t00ls.net/thread-57788-1-1.html)|[项目留存PDF版本](./books/10种方法绕过云锁以及tamper.pdf)
@@ -301,6 +370,7 @@
 - [GitHack-.git泄露利用脚本](https://github.com/lijiejie/GitHack)
 - [GitHacker---比GitHack更好用的git泄露利用脚本](https://github.com/WangYihang/GitHacker)
 - [SVN源代码泄露全版本Dump源码](https://github.com/admintony/svnExploit)
+- [dumpall-多种泄漏形式，一种利用方式【支持.git源代码泄漏.svn源代码泄漏.DS_Store信息泄漏目录列出信息泄漏】](https://github.com/0xHJK/dumpall)
 - [多进程批量网站备份文件扫描](https://github.com/sry309/ihoneyBakFileScan)
 - [Empire](https://github.com/BC-SECURITY/Empire/)|相关文章:[后渗透测试神器Empire详解](https://mp.weixin.qq.com/s/xCtkoIwVomx5f8hVSoGKpA)
 - [FOFA Pro view 是一款FOFA Pro 资产展示浏览器插件，目前兼容 Chrome、Firefox、Opera](https://github.com/0nise/fofa_view)
@@ -312,6 +382,7 @@
 - [从内存中加载 SHELLCODE bypass AV查杀](https://github.com/brimstone/go-shellcode)|[twitter示例](https://twitter.com/jas502n/status/1213847002947051521)
 - [流量转发工具-pingtunnel是把tcp/udp/sock5流量伪装成icmp流量进行转发的工具](https://github.com/esrrhs/pingtunnel)
 - [内网渗透-创建Windows用户(当net net1 等常见命令被过滤时,一个文件执行直接添加一个管理员【需要shell具有管理员权限l】](https://github.com/newsoft/adduser)|[adduser使用方法](./adduser添加用户.md) |[【windows】绕过杀软添加管理员用户的两种方法](https://github.com/lengjibo/RedTeamTools/tree/master/windows/bypass360%E5%8A%A0%E7%94%A8%E6%88%B7)|[【windows】使用vbs脚本添加管理员用户](./使用vbs脚本添加管理员用户.md)
+- [NetUser-使用windows　api添加用户，可用于net无法使用时（支持Nim版本）](https://github.com/lengjibo/NetUser)
 - [pypykatz-通过python3实现完整的Mimikatz功能(python3.6+)](https://github.com/skelsec/pypykatz)
 - [【windows】Bypassing AV via in-memory PE execution-通过在内存中加载多次XOR后的payload来bypass杀软](https://blog.dylan.codes/bypassing-av-via/)|[作者自建gitlab地址](https://git.dylan.codes/batman/darkarmour)
 - [wafw00f-帮助你快速识别web应用是否使用何种WAF(扫描之前很有用)](https://github.com/EnableSecurity/wafw00f)
@@ -323,11 +394,12 @@
 - [Cobalt Strike Aggressor 插件包](https://github.com/timwhitez/Cobalt-Strike-Aggressor-Scripts)
 - [Erebus-Cobalt Strike后渗透测试插件,包括了信息收集、权限获取、密码获取、痕迹清除等等常见的脚本插件](https://github.com/DeEpinGh0st/Erebus)
 - [cobaltstrike后渗透插件，偏向内网常用工具（目前包含1.定位域管理员2.信息收集(采用ADfind)3.权限维持(增加了万能密码,以及白银票据)4.内网扫描(nbtscan(linux/windows通用))5.dump数据库hash(支持mysql/mssql(快速获取数据库的hash值))）](https://github.com/wafinfo/cobaltstrike)
+- [AggressorScripts-适用于Cobalt Strike 3.x & 4.x 的插件【信息搜集/提权/定位域管/读取密码/内网扫描/RDP相关/添加用户/内网穿透/权限维持/日志清除/辅助模块/】](https://github.com/z1un/Z1-AggressorScripts)
 - [IP/IP段资产扫描-->扫描开放端口识别运行服务部署网站-->自动化整理扫描结果-->输出可视化报表+整理结果](https://github.com/LangziFun/LangNetworkTopology3)
 - [A script to scan for unsecured Laravel .env files](https://github.com/tismayil/laravelN00b)
 - [STS2G-Struts2漏洞扫描Golang版-【特点:单文件、全平台支持、可在webshell下使用】](https://github.com/x51/STS2G)|[编译好的Windows版本](./tools/ST2G.exe)｜[Linux版本](./tools/ST2SG_linux)
 - [Struts2_Chek_BypassWAF.jar-struts2全版本漏洞测试工具17-6过WAF版 by:ABC_123 仅供天融信内部使用,勿用于非法用途](./tools/Struts2_Chek_BypassWAF.jar)
-- [ShiroScan-Shiro<=1.2.4反序列化，一键检测工具](https://github.com/sv3nbeast/ShiroScan)|[Apache shiro <= 1.2.4 rememberMe 反序列化漏洞利用工具](https://github.com/acgbfull/Apache_Shiro_1.2.4_RCE)
+- [ShiroScan-Shiro<=1.2.4反序列化，一键检测工具](https://github.com/sv3nbeast/ShiroScan)|[Apache shiro <= 1.2.4 rememberMe 反序列化漏洞利用工具](https://github.com/acgbfull/Apache_Shiro_1.2.4_RCE)|[ShiroScan-Shiro RememberMe 1.2.4 反序列化漏洞图形化检测工具(Shiro-550)](https://github.com/fupinglee/ShiroScan)|[shiro_attack-shiro反序列化漏洞综合利用,包含（回显执行命令/注入内存马,支持shiro > 1.4.2 ）](https://github.com/j1anFen/shiro_attack)-[shiro_attack_1.5.zip下载](./tools/shiro_attack_1.5.zip)
 - [weblogicScanner-完整weblogic 漏洞扫描工具修复版](https://github.com/0xn0ne/weblogicScanner)
 - [GitHub敏感信息泄露监控](https://github.com/FeeiCN/GSIL)
 - [Java安全相关的漏洞和技术demo](https://github.com/threedr3am/learnjavabug)
@@ -342,6 +414,7 @@
 - [【内网代理】pivotnacci-通过HTTP隧道将TCP流量代理出来或进去](https://github.com/blackarrowsec/pivotnacci)
 - [【内网代理】毒刺(pystinger)通过webshell实现**内网SOCK4代理**,**端口映射**.](https://github.com/FunnyWolf/pystinger)|[pystinger.zip-下载](./tools/pystinger.zip)
 - [【内网代理】php-proxy-app-一款代理访问网站的工具](https://github.com/Athlon1600/php-proxy-app)
+- [【内网代理】reDuh-通过http隧道搭建代理（比较远古，酌情使用）](https://github.com/sensepost/reDuh)
 - [get_Team_Pass-获取目标机器上的teamviewerID和密码(你需要具有有效的目标机器账号密码且目标机器445端口可以被访问(开放445端口))](https://github.com/kr1shn4murt1/get_Team_Pass/)
 - [chromepass-获取chrome保存的账号密码/cookies-nirsoft出品在win10+chrome 80测试OK](./tools/chromepass/)|[SharpChrome-基于.NET 2.0的开源获取chrome保存过的账号密码/cookies/history](https://github.com/djhohnstein/SharpChrome)|[ChromePasswords-开源获取chrome密码/cookies工具](https://github.com/malcomvetter/ChromePasswords)
 - [java-jdwp远程调试利用](https://github.com/Lz1y/jdwp-shellifier)|相关文章:[jdwp远程调试与安全](https://qsli.github.io/2018/08/12/jdwp/)
@@ -373,10 +446,11 @@
 - [mssqli-duet-用于mssql的sql注入脚本,使用RID爆破,从Active Directory环境中提取域用户](https://github.com/Keramas/mssqli-duet)
 - [【Android 移动app渗透】之一键提取APP敏感信息](https://github.com/TheKingOfDuck/ApkAnalyser)
 - [【android 移动app渗透】apkleaks-扫描APK文件提取URL、终端和secret](https://github.com/dwisiswant0/apkleaks)
-- [Shiro系列漏洞检测GUI版本-ShiroExploit GUI版本](https://github.com/feihong-cs/ShiroExploit_GUI)
+- [ShiroExploit-Deprecated-Shiro系列漏洞检测GUI版本-ShiroExploit GUI版本](https://github.com/feihong-cs/ShiroExploit-Deprecated)
 - [通过phpinfo获取cookie突破httponly](./通过phpinfo获取cookie突破httponly.md)
 - [phpstudy RCE 利用工具 windows GUI版本](https://github.com/aimorc/phpstudyrce)
 - [WebAliveScan-根据端口快速扫描存活的WEB](https://github.com/broken5/WebAliveScan)
+- [bscan-bscan的是一款强大、简单、实用、高效的HTTP扫描器。（WebAliveScan的升级版本）](https://github.com/broken5/bscan)
 - [扫描可写目录.aspx](./tools/扫描可写目录.aspx)
 - [PC客户端（C-S架构）渗透测试](https://github.com/theLSA/CS-checklist)
 - [wsltools-web扫描辅助python库](https://github.com/Symbo1/wsltools)
@@ -390,6 +464,7 @@
 - [SRC资产信息聚合网站](https://github.com/cckuailong/InformationGather)
 - [Spring Boot Actuator未授权访问【XXE、RCE】单/多目标检测](https://github.com/rabbitmask/SB-Actuator)
 - [JNDI 注入利用工具【Fastjson、Jackson 等相关漏洞】](https://github.com/JosephTribbianni/JNDI)
+- [fastjson_rec_exploit-fastjson一键命令执行（python版本）](https://github.com/mrknow001/fastjson_rec_exploit)
 - [各种反弹shell的语句集合页面](https://krober.biz/misc/reverse_shell.php)
 - [解密weblogic AES或DES加密方法](https://github.com/Ch1ngg/WebLogicPasswordDecryptorUi)
 - [使用 sshLooterC 抓取 SSH 密码](https://github.com/mthbernardes/sshLooterC)|[相关文章](https://www.ch1ng.com/blog/208.html)|[本地版本](./books/使用sshLooterC抓取SSH密码.pdf)
@@ -490,9 +565,12 @@
 - [SweetPotato_Cobalt Strike-修改的SweetPotato，使之可以用于CobaltStrike v4.0](https://github.com/Tycx2ry/SweetPotato_CS)
 - [ServerScan-一款使用Golang开发的高并发网络扫描、服务探测工具](https://github.com/Adminisme/ServerScan)
 - [ShellcodeLoader-将shellcode用rsa加密并动态编译exe，自带几种反沙箱技术](https://github.com/Hzllaga/ShellcodeLoader)
+- [shellcodeloader-Windows平台的shellcode免杀加载器](https://github.com/knownsec/shellcodeloader)
+- [FourEye-重明-又一款基于python开发的对shellcode和exe文件免杀的工具](https://github.com/lengjibo/FourEye)
 - [Invoke-CustomKatz.ps1-bypass AMSI 的Mimikatz PS脚本](./tools/Invoke-CustomKatz.ps1)-[原文地址](https://s3cur3th1ssh1t.github.io/Bypass-AMSI-by-manual-modification-part-II/)-[原gits链接](https://gist.github.com/S3cur3Th1sSh1t/b33b978ea62a4b0f6ef545f1378512a6)
 - [SimpleShellcodeInjector-shellcode加载器](https://github.com/DimopoulosElias/SimpleShellcodeInjector)
 - [Arsenal-Cobalt Strike直接生成payload插件免杀360和火绒](https://github.com/Cliov/Arsenal)
+- [ShellCodeFramework-【免杀框架】](https://github.com/mai1zhi2/ShellCodeFramework)
 - [abuse-ssl-bypass-waf-使用不同的ssl加密方式来寻找防火墙不支持但服务器支持的加密方式来绕过waf](https://github.com/LandGrey/abuse-ssl-bypass-waf)
 - [CrossC2 framework - 生成CobaltStrike的跨平台beacon](https://github.com/Mr-xn/CrossC2)
 - [csbruter-爆破Cobalt Strike的服务端密码](https://github.com/ryanohoro/csbruter)
@@ -509,7 +587,8 @@
 - [【威胁日志分析】DeepBlueCLI-通过Windows事件日志来搜寻威胁的powershell模块](https://github.com/sans-blue-team/DeepBlueCLI)
 - [Pentest-and-Development-Tips-三好学生大佬出品的有关渗透测试和开发的小技巧](https://github.com/3gstudent/Pentest-and-Development-Tips)
 - [【免杀】ImgLoaderShellCode-将shellcode注入bmp图片文件](https://github.com/sv3nbeast/ImgLoaderShellCode)-[配合这个更佳](https://www.svenbeast.com/post/xue-xi-tu-pian-yin-xie-shellcode-jin-xing-yuan-cheng-jia-zai-guo-av/)
-- [【免杀】DLL 代理转发与维权](./books/[免杀]DLL 代理转发与维权.pdf)-[原文地址](https://mp.weixin.qq.com/s/zUXrNsf9IsZWocrb7z3i1Q)
+- [【免杀】DLL 代理转发与维权](./books/%E3%80%90%E5%85%8D%E6%9D%80%E3%80%91DLL%20%E4%BB%A3%E7%90%86%E8%BD%AC%E5%8F%91%E4%B8%8E%E7%BB%B4%E6%9D%83.pdf)-[原文地址](https://mp.weixin.qq.com/s/zUXrNsf9IsZWocrb7z3i1Q)
+- [【免杀】使用nim语言进行shellcode加载](https://github.com/M-Kings/BypassAv-web)
 - [LangNetworkTopologys-快速进行内网资产扫描，支持端口扫描，指纹识别，网站探测，结果支持图表展示](https://github.com/LangziFun/LangNetworkTopologys)
 - [weblogic_exploit-weblogic漏洞利用工具【包括了weblogic常见高危漏洞的利用】](https://github.com/21superman/weblogic_exploit)
 - [rsync_weakpass.py-rsync弱口令爆破脚本](https://github.com/hi-unc1e/some_scripts/blob/master/EXPs/rsync_weakpass.py)
@@ -518,6 +597,65 @@
 - [ffuf-基于go开发的快速fuzz工具](https://github.com/ffuf/ffuf)
 - [linglong-一款甲方资产巡航扫描系统,系统定位是发现资产，进行端口爆破。帮助企业更快发现弱口令问题。主要功能包括: 资产探测、端口爆破、定时任务、管理后台识别、报表展示](https://github.com/awake1t/linglong)
 - [fscan-一键大保健（支持主机存活探测、端口扫描、常见服务的爆破、ms17010、redis批量写私钥、计划任务反弹shell、读取win网卡信息等）](https://github.com/shadow1ng/fscan)
+- [anti-honeypot-一款可以检测WEB蜜罐并阻断请求的Chrome插件](https://github.com/cnrstar/anti-honeypot)
+- [myscan-又一款被动扫描工具](https://github.com/amcai/myscan)
+- [360SafeBrowsergetpass-一键辅助抓取360安全浏览器密码的Cobalt Strike脚本](https://github.com/hayasec/360SafeBrowsergetpass)
+- [BrowserView-还原浏览器（支持国产主流浏览器）密码/历史记录/收藏夹/cookie](./tools/BrowserView.exe)-[原地址](http://www.liulanqicode.com/browserview.htm)
+- [HackBrowserData-是一个解密浏览器数据（密码|历史记录|Cookie|书签 | 信用卡 | 下载记录）的导出工具，支持全平台主流浏览器](https://github.com/moonD4rk/HackBrowserData)
+- [OffensiveNim-简称Nim的跨平台shellcode加载执行器](https://github.com/byt3bl33d3r/OffensiveNim)
+- [gshark-GitHub敏感信息扫描收集管理工具](https://github.com/madneal/gshark)
+- [domainNamePredictor-一个简单的现代化公司域名使用规律预测及生成工具](https://github.com/LandGrey/domainNamePredictor)
+- [r0capture-安卓应用层抓包通杀脚本](https://github.com/r0ysue/r0capture)
+- [【免杀】py2exe-将python脚本转换为单文件版可执行的exe文件](https://github.com/py2exe/py2exe)
+- [Kunlun-Mirror 专注于安全研究员使用的代码审计辅助工具](https://github.com/LoRexxar/Kunlun-M)
+- [JsLoader-js免杀shellcode，绕过杀毒添加自启](https://github.com/Hzllaga/JsLoader)
+- [NoMSBuild-MSBuild without MSbuild.exe](https://github.com/rvrsh3ll/NoMSBuild)
+- [thinkphp-RCE-POC-Collection-thinkphp v5.x 远程代码执行漏洞-POC集合](https://github.com/SkyBlueEternal/thinkphp-RCE-POC-Collection)
+- [possessor-【过杀软行为检测】原理：在win10下创建一个第二桌面，模拟用户执行命令](https://github.com/gnxbr/Fully-Undetectable-Techniques/tree/main/possessor)
+- [MemProcFS-The Memory Process File System](https://github.com/ufrisk/MemProcFS)
+- [vulmap-Web漏洞扫描和验证工具，可对Web容器、Web服务器、Web中间件以及CMS等Web程序进行漏洞扫描，并且具备漏洞利用功能](https://github.com/zhzyker/vulmap)
+- [Ary 是一个集成类工具，主要用于调用各种安全工具，从而形成便捷的一键式渗透](https://github.com/TeraSecTeam/ary)
+- [AKtools-Java版的aliyun-accesskey-Tools](https://github.com/Moon3r/AKtools)-[aliyun-accesskey-Tools-此工具用于查询ALIYUN_ACCESSKEY的主机，并且远程执行命令](https://github.com/mrknow001/aliyun-accesskey-Tools)
+- [MDAT-一款用于数据库攻击的利用工具，集合了多种主流的数据库类型](https://github.com/SafeGroceryStore/MDAT)
+- [sqlmap-gtk-sqlmap的GUI界面实现](https://github.com/needle-wang/sqlmap-gtk)
+- [Viper-msf（metasploit-framework）图形界面](https://github.com/FunnyWolf/Viper)
+- [Web-Fuzzing-Box - Web 模糊测试字典与一些Payloads，主要包含：弱口令暴力破解、目录以及文件枚举、Web漏洞](https://github.com/gh0stkey/Web-Fuzzing-Box)
+- [emp3r0r-Linux后渗透框架](https://github.com/jm33-m0/emp3r0r)
+- [dnstunnel-一款多会话的二进制DNS隧道远控](https://github.com/bigBestWay/dnstunnel)
+- [CVE-2020-17519-Apache Flink 目录遍历漏洞批量检测](https://github.com/B1anda0/CVE-2020-17519)
+- [Internal-Monologue-通过 SSPI 调⽤ NTLM 身份验证，通过协商使⽤预定义 challenge 降级为 NetNTLMv1，获取到 NetNTLMv1 hash](https://github.com/eladshamir/Internal-Monologue)
+- [domainTools-内网域渗透小工具](https://github.com/SkewwG/domainTools)
+- [HackTools(如当)-红队浏览器插件](https://github.com/s7ckTeam/HackTools)
+- [CVE-2020-36179-Jackson-databind SSRF&RCE](https://github.com/Al1ex/CVE-2020-36179)
+- [leaky-paths-一份有关major web CVEs, known juicy APIs, misconfigurations这类的特别应用路径字典收集](https://github.com/ayoubfathi/leaky-paths)
+- [QuJing(曲境)-曲境是一个xposed模块，可实现在PC浏览器上动态监控（hook）函数调用和查看堆栈信息，及反射调用（invoke）等功能](https://github.com/Mocha-L/QuJing)
+- [r0tracer-安卓Java层多功能追踪脚本](https://github.com/r0ysue/r0tracer)
+- [TFirewall-防火墙出网探测工具,内网穿透型socks5代理](https://github.com/FunnyWolf/TFirewall)
+- [`Cooolis-ms`是一个包含了Metasploit Payload Loader、Cobalt Strike External C2 Loader、Reflective DLL injection的代码执行工具，它的定位在于能够在静态查杀上规避一些我们将要执行且含有特征的代码，帮助红队人员更方便快捷的从Web容器环境切换到C2环境进一步进行工作。](https://github.com/Rvn0xsy/Cooolis-ms)
+- [GScan-为安全应急响应人员对Linux主机排查时提供便利，实现主机侧Checklist的自动全面化检测，根据检测结果自动数据聚合，进行黑客攻击路径溯源](https://github.com/grayddq/GScan)
+- [Kscan-一款轻量级的资产发现工具，可针对IP/IP段或资产列表进行端口扫描以及TCP指纹识别和Banner抓取，在不发送更多的数据包的情况下尽可能的获取端口更多信息](https://github.com/lcvvvv/kscan)
+- [【字典】Dictionary-Of-Pentesting-认证类、文件路径类、端口类、域名类、无线类、正则类](https://github.com/insightglacier/Dictionary-Of-Pentesting)
+- [【免杀框架】*Veil*-Evasion是一个用python写的*免杀*框架](https://github.com/Veil-Framework/Veil)
+- [Shellcoding-shellcode生成+shellcode混淆](https://github.com/Mr-Un1k0d3r/Shellcoding)
+- [【免杀】bypassAV-条件触发式远控](https://github.com/pureqh/bypassAV)
+- [SystemToken-通过遍历所有进程来寻找一个以SYSTEM权限运行且所有者为 Administrators的进程后，以当前token新启一个SYSTEM权限的shell](https://github.com/yusufqk/SystemToken)
+- [通达OA综合利用工具_圈子社区专版](./tools/通达OA综合利用工具_圈子社区专版.jar)
+- [IoT-vulhub-IoT 固件漏洞复现环境](https://github.com/firmianay/IoT-vulhub)
+- [RedisWriteFile-通过 Redis 主从写出无损文件](https://github.com/r35tart/RedisWriteFile)
+- [AWVS-13-SCAN-PLUS_一个基于Acunetix Web Vulnerability Scanner 13 （AWVS13）扫描引擎的辅助软件](https://github.com/x364e3ab6/AWVS-13-SCAN-PLUS)
+- [sonar-java_java代码质量检查和安全性测试](https://github.com/SonarSource/sonar-java)
+- [CSS-Exchange_微软自家出品的Exchange server检查工具](https://github.com/microsoft/CSS-Exchange)
+- [frpModify-修改frp支持域前置与配置文件自删除](https://github.com/uknowsec/frpModify)|[FrpProPlugin-frp0.33修改版,过流量检测,免杀,支持加载远程配置文件可用于cs直接使用的插件](https://github.com/mstxq17/FrpProPlugin)
+- [Vulfocus-一个漏洞集成平台，将漏洞环境 docker 镜像，放入即可使用，开箱即用](https://github.com/fofapro/vulfocus)
+- [vulnReport-安服自动化脚本：包括 Nessus、天境主机漏洞扫描6.0、APPscan、awvs等漏洞报告的整理，Google翻译等](https://github.com/wysec2020/vulnReport)
+- [.NETWebShell-动态编译实现任意命令执行，Windows Defender 免杀](https://github.com/Ivan1ee/.NETWebShell)
+- [NetDLLSpy-.NET后渗透下的权限维持，附下载DLL](https://github.com/Ivan1ee/NetDLLSpy)
+- [DuckMemoryScan-一个简单寻找包括不限于iis劫持,无文件木马,shellcode免杀后门的工具](https://github.com/huoji120/DuckMemoryScan)
+- [PocList-jar单文件版的各种poc利用工具](https://github.com/Yang0615777/PocList)
+- [Swagger API Exploit-一个 Swagger REST API 信息泄露利用工具](https://github.com/lijiejie/swagger-exp)
+- [weblogic-framework:weblogic漏洞检测框架](https://github.com/0nise/weblogic-framework)
+- [Finger-web指纹识别工具『质量根据规则库』](https://github.com/EASY233/Finger)
+- [Sunflower_get_Password-一款针对向日葵的识别码和验证码提取工具](https://github.com/wafinfo/Sunflower_get_Password)
 
 ## <span id="head8"> 文章/书籍/教程相关</span>
 
@@ -551,6 +689,7 @@
 - [Cobal_Strike_自定义OneLiner](./books/Cobal_Strike_自定义OneLiner_Evi1cg's_blog.pdf)
 - [cobalt strike 快速上手 [ 一 ]](./books/cobalt_strike_快速上手%5B%20一%20%5D.pdf)
 - [Cobalt strike3.0使用手册](./books/Cobalt_strike3.0使用手册.pdf)
+- [Awesome-CobaltStrike-cobaltstrike的相关资源汇总](https://github.com/zer0yu/Awesome-CobaltStrike)
 - [Cobalt_Strike_Spear_Phish_Cobalt Strike邮件钓鱼制作](./books/Cobalt_Strike_Spear_Phish_Evi1cg's%20blog%20%20CS邮件钓鱼制作.md)
 - [Remote NTLM relaying through Cobalt Strike](./books/Remote_NTLM_relaying_through_CS.pdf)
 - [渗透测试神器Cobalt Strike使用教程](./books/渗透测试神器Cobalt%20Strike使用教程.pdf)
@@ -593,6 +732,7 @@
 - [【Android脱壳】_腾讯加固动态脱壳（上篇）](./books/移动安全（九）_TengXun加固动态脱壳（上篇）.pdf)
 - [【Android脱壳】腾讯加固动态脱壳（下篇）](./books/移动安全（十）_TengXun加固动态脱壳（下篇）.pdf)
 - [【Android脱壳】记一次frida实战——对某视频APP的脱壳、hook破解、模拟抓包、协议分析一条龙服务](./books/记一次frida实战——对某视频APP的脱壳、hook破解、模拟抓包、协议分析一条龙服务.pdf)
+- [【Android脱壳】-免root脱腾讯御安全加固](./books/免root脱腾讯御安全加固.pdf)
 - [【Android抓包】记一次APP测试的爬坑经历.pdf](./books/记一次APP测试的爬坑经历.pdf)
 - [完整的内网域渗透-暗月培训之项目六](./books/完整的内网域渗透-暗月培训之项目六.pdf)
 - [Android APP渗透测试方法大全](./books/Android%20APP渗透测试方法大全.pdf)
@@ -631,12 +771,13 @@
 - [PbootCMS任意代码执行(从v1.0.1到v2.0.9)的前世今生](./books/PbootCMS任意代码执行(从v1.0.1到v2.0.9)的前世今生.pdf)
 - [实战绕过双重waf(玄武盾+程序自身过滤)结合编写sqlmap的tamper获取数据](./books/实战绕过双重waf(玄武盾+程序自身过滤)结合编写sqlmap的tamper获取数据.pdf)
 - [OneThink前台注入分析](./books/OneThink前台注入分析.pdf)
-- [记一次从源代码泄漏到后台(微擎cms)获取webshell的过程](./books/记一次从源代码泄漏到后台(微擎cms)获取webshell的过程.pdf)
+- [记一次从源代码泄漏到后台(微擎cms)获取webshell的过程](./books/记一次从源代码泄漏到后台(微擎cms)获取webshell的过程.pdf)-[源出](https://fuping.site/2020/04/18/WeiQing-CMS-Background-Admin-GetShell/)
 - [Android抓包—关于抓包的碎碎念-看雪论坛-Android板块ChenSem](./books/关于抓包的碎碎念.pdf)|[原文地址](https://bbs.pediy.com/thread-260965.htm)
 - [CVE-2020-15778-Openssh-SCP命令注入漏洞复现报告](./books/CVE-2020-15778-Openssh-SCP命令注入漏洞复现报告.pdf)
 - [bolt_cms_V3.7.0_xss和远程代码执行漏洞](./books/bolt_cms_V3.7.0_xss和远程代码执行漏洞.pdf)
 - [关于Cobalt_Strike检测方法与去特征的思考](./books/关于Cobalt_Strike检测方法与去特征的思考.pdf)
 - [代码审计_PHPCMS_V9前台RCE挖掘分析](./books/代码审计_PHPCMS_V9前台RCE挖掘分析.pdf)
+- [PHPCMS_V9.2任意文件上传getshell漏洞分析](./books/PHPCMS_V9.2任意文件上传getshell漏洞分析.pdf)-[原文地址](https://mp.weixin.qq.com/s/o_u_mFjFIq3hKgSvVFGcRg)
 - [【免杀】C++免杀项目推荐](./books/C++免杀项目推荐.pdf)-[附件下载](./tools/RefacterC.zip)|[原文地址](https://mp.weixin.qq.com/s/0OB0yQAiOfsU4JqkCDUi7w)
 - [利用图片隐写术来远程动态加载shellcode](./books/利用图片隐写术来远程动态加载shellcode.pdf)|[原文地址](https://mp.weixin.qq.com/s/QZ5YlRZN47zne7vCzvUpJw)
 - [[后渗透]Mimikatz使用大全](./books/[后渗透]Mimikatz使用大全.pdf)|[原文地址](https://www.cnblogs.com/-mo-/p/11890232.html)
@@ -683,8 +824,10 @@
 -  [蓝队技巧：查找被隐藏的Windows服务项](./books/蓝队技巧：查找被隐藏的Windows服务项.pdf)
 -  [VHAdmin虚拟主机提权实战案例](./books/VHAdmin虚拟主机提权实战案例.pdf)-[原文地址](https://mp.weixin.qq.com/s/LmXi6niSJ4s-Cmq3jWSjaQ)
 -  [移动安全-APP渗透进阶之AppCan本地文件解密](./books/移动安全-APP渗透进阶之AppCan本地文件解密.pdf)-[原文地址](https://mp.weixin.qq.com/s/ybaiTkHetbbbshH1KZXRaQ)
--  [【建议收藏】Cobalt Strike学习笔记合集](./books/[建议收藏]CS学习笔记合集20%_20%Teams20%Six.pdf)
+-  [【建议收藏】Cobalt Strike学习笔记合集](./books/【建议收藏】CS学习笔记合集%20_%20Teams%20Six.pdf)
+-  [Cobalt_Strike_wiki-Cobalt Strike系列](https://github.com/aleenzz/Cobalt_Strike_wiki)
 -  [Cobalt Strike4.1系列在线手册](https://wbglil.gitbook.io/cobalt-strike/)
+-  [Cobalt Strike 4.2 Manual（cs 4.2英文手册）](./books/Cobalt%20Strike%204.2%20Manual.pdf)
 -  [域渗透之NTML-Hash总结](./books/域渗透之NTML-Hash总结.pdf)-[原文地址](https://ssooking.github.io/yu-shen-tou-zhi-ntml-hash/)
 -  [SQLite手工注入Getshell技巧](./books/SQLite手工注入Getshell技巧.pdf)-[原文地址](https://fuping.site/2017/07/19/SQLite-Injection-Get-WebShell/)
 -  [CVE-2020-1472 NetLogon 特权提升漏洞环境+详细复现步骤](./books/CVE-2020-1472%20NetLogon%20特权提升漏洞.pdf)-[原文地址](https://www.svenbeast.com/post/fu-xian-cve-2020-1472-netlogon-te-quan-ti-sheng-lou-dong/)
@@ -693,12 +836,64 @@
 -  [[CVE-2020-14882_14883]WebLogioc console认证绕过+任意代码执行](./books/%5BCVE-2020-14882_14883%5DWebLogioc%20console认证绕过%2B任意代码执行.pdf)-[原文地址](https://mp.weixin.qq.com/s/u8cZEcku-uIbGAVAcos5Tw)
 -  [JNDI注入学习](./books/JNDI注入学习.pdf)-[原文地址](https://www.redteaming.top/2020/08/24/JNDI-Injection/)
 -  [绕过CDN查找真实IP方法总结](./books/绕过CDN查找真实IP方法总结.pdf)-[原文地址](https://mp.weixin.qq.com/s/aSD6kTTOdVgoZXJuqTSqDQ)
+-  [真实IP探测方法大全](./books/绕cdn探测真实ip方法大全.pdf)-[原文地址](https://blog.csdn.net/qq_38265674/article/details/110954257)
 -  [SQL注入简单总结——过滤逗号注入(附绕过tamper)](./books/SQL注入简单总结——过滤逗号注入.pdf)-[原地址](https://www.jianshu.com/p/d10785d22db2)
-
+-  [绕过WAF的另类webshell木马文件测试方法](./books/绕过WAF的另类webshell木马文件测试方法.pdf)-[源出](https://www.freebuf.com/articles/network/253803.html)
+-  [Android 渗透测试 frida——Brida 插件加解密实战演示](./books/Android%20渗透测试%20frida——Brida%20插件加解密实战演示.pdf)-[源处](https://xz.aliyun.com/t/7562)
+-  [一个由个人维护的安全知识框架,内容包括不仅限于 web安全、工控安全、取证、应急、蓝队设施部署、后渗透、Linux安全、各类靶机writup](https://github.com/No-Github/1earn)-[在线版](https://ffffffff0x.gitbook.io/1earn/)
+-  [AndroidSecurityStudy-安卓应用安全学习(主要包括Frida&&FART系列)](https://github.com/r0ysue/AndroidSecurityStudy)
+-  [Mysql注入总结](./books/Mysql注入总结.pdf)-[原文地址](https://mp.weixin.qq.com/s/09VLJjbhKmLZhJdQnvtIvQ)
+-  [ThinkAdmin未授权列目录_任意文件读取(CVE-2020-25540)漏洞复现](./books/ThinkAdmin未授权列目录_任意文件读取(CVE-2020-25540)漏洞复现.pdf)-[原文地址](https://mp.weixin.qq.com/s/ORM_6AXz-4jpg1wn82GrLg)
+-  [【免杀技巧】利用加载器以及Python反序列化绕过AV-打造自动化免杀平台](./books/利用加载器以及Python反序列化绕过AV-打造自动化免杀平台.pdf)-[原文地址](https://mp.weixin.qq.com/s/sd73eL3-TnMm0zWLCC8cOQ)
+-  [bypass-av-note:免杀技术大杂烩---乱拳打死老师傅](https://github.com/Airboi/bypass-av-note)
+-  [Struts2 S2-061漏洞分析(CVE-2020-17530)](./books/Struts2%20S2-061漏洞分析(CVE-2020-17530).pdf)-[原文地址](https://mp.weixin.qq.com/s/RD2HTMn-jFxDIs4-X95u6g)
+-  [CVE-2020-10977-GitLab任意文件读取漏洞复现](./books/CVE-2020-10977-GitLab任意文件读取漏洞复现.pdf)-[原地址](https://mp.weixin.qq.com/s/ZmzXk0C-o0AnBLzVMAhRJg)
+-  [Linux后门N种姿势_fuckadmin](./books/Linux后门N种姿势_fuckadmin.pdf)
+-  [安全修复建议加固方案1.0](./books/安全修复建议加固方案1.0.pdf)
+-  [Web攻防之业务安全实战指南](./books/Web攻防之业务安全实战指南.pdf)
+-  [Linux基线加固方案V1.0](./books/Linux基线加固方案V1.0.pdf)
+-  [php中函数禁用绕过的原理与利用](./books/php中函数禁用绕过的原理与利用.pdf)-[原文地址](https://mp.weixin.qq.com/s/_L379eq0kufu3CCHN1DdkA)
+-  [TP诸多限制条件下如何getshell](./books/TP诸多限制条件下如何getshell.pdf)-[原文地址](https://mp.weixin.qq.com/s/LaTNNjwDT1VzN6uA0Gq0-Q)
+-  [中间件内存马注入&冰蝎连接(附更改部分代码)](./books/中间件内存马注入&冰蝎连接(附更改部分代码).pdf)-[原文地址](https://mp.weixin.qq.com/s/eI-50-_W89eN8tsKi-5j4g)
+-  [用友NC6.5未授权文件上传漏洞分析](./books/X友NC6.5未授权文件上传漏洞分析.pdf)
+-  [钓鱼那些事（初入Office宏攻击）](./books/钓鱼那些事（初入Office宏攻击）.pdf)-[原文地址](https://mp.weixin.qq.com/s/FEhpCV5wklOqLmRvMiv20g)
+-  [ZIP已知明文攻击深入利用](./books/ZIP已知明文攻击深入利用.pdf)-[原文地址](https://www.freebuf.com/articles/network/255145.html)
+-  [组件攻击链ThinkCMF高危漏洞分析与利用](./books/组件攻击链ThinkCMF高危漏洞分析与利用.pdf)-[原文地址](https://www.freebuf.com/articles/web/255184.html)
+-  [Struts2 s2-061 Poc分析](./books/Struts2%20s2-061%20Poc分析.pdf)-[原文地址](https://mp.weixin.qq.com/s/skV6BsARvie33vV2R6SZKw)
+-  [内含 POC 丨漏洞复现之 S2-061(CVE-2020-17530)](./books/内含POC丨漏洞复现之S2-061(CVE-2020-17530).pdf)-[原文地址](https://mp.weixin.qq.com/s/uVybuJpkvGt3HCIbfYv1tw)
+-  [Kerberos相关攻击技巧(较全)](./books/Kerberos相关攻击技巧(较全)%20.pdf)-[原文地址](https://xz.aliyun.com/t/8690)
+-  [Intranet_Penetration_Tips-内网渗透TIPS](https://github.com/Ridter/Intranet_Penetration_Tips)
+-  [TimelineSec-2020年漏洞复现大全](https://github.com/TimelineSec/2020-Vulnerabilities)
+-  [Kerberos协议到票据伪造](./books/Kerberos协议到票据伪造.pdf)-[原文地址](https://www.zjun.info/2020/kerberos.html)
+-  [抓取HASH的10001种方法](./books/抓取HASH的10001种方法.pdf)-[原文地址](https://mp.weixin.qq.com/s/6mwms9LtLE6cK0ukpoSMmg)
+-  [C#免杀之自实现DNS服务器传输shellcode](./books/C#免杀之自实现DNS服务器传输shellcode.pdf)-[原文地址](https://xz.aliyun.com/t/8921)
+-  [ThinkPHP v3.2.X（SQL注入&文件读取）反序列化POP链](./books/ThinkPHP%20v3.2.X%EF%BC%88SQL%E6%B3%A8%E5%85%A5&%E6%96%87%E4%BB%B6%E8%AF%BB%E5%8F%96%EF%BC%89%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96POP%E9%93%BE.pdf)-[原文地址](https://mp.weixin.qq.com/s/S3Un1EM-cftFXr8hxG4qfA)
+-  [exp-hub-漏洞复现、批量脚本](https://github.com/ybdt/exp-hub)
+-  [sign-逆向app的sign等参数的思路和体验, 安卓逆向, 安卓破解, 逆向app,爬虫解密](https://github.com/darbra/sign)
+-  [Report_Public-DVPNET 公开漏洞知识库](https://github.com/DVPNET/Report_Public)
+-  [DolphinPHP 1.4.2（_1.4.5）后台 GetShell](./books/DolphinPHP%201.4.2（_1.4.5）后台%20GetShell.pdf)-[原文地址](https://www.t00ls.net/thread-59636-1-1.html)
+-  [使用ICMP传递shellcode](./books/使用ICMP传递shellcode.pdf)-[原文地址](https://blog.romanrii.com/using-icmp-to-deliver-shellcode)
+-  [红队技巧：绕过ESET_NOD32抓取密码](./books/红队技巧：绕过ESET_NOD32抓取密码.pdf)-[原文地址](https://mp.weixin.qq.com/s/FaiNEUX2wcscotkyAqUO2Q)
+-  [路由器无限重启救砖之旅](./books/路由器无限重启救砖之旅.pdf)-[原文地址](https://www.anquanke.com/post/id/231493)
+-  [内网渗透测试：MySql的利用与提权思路总结](./books/内网渗透测试：MySql的利用与提权思路总结.pdf)-[原文地址](https://www.freebuf.com/articles/network/261917.html)
+-  [Windows后渗透之权限维持](./books/Windows后渗透之权限维持.pdf)-[原文地址](https://mp.weixin.qq.com/s/Yte_h5Ov_Atz_GHf7rcsIA)
+-  [hackerone-reports_有关hackerone上漏洞奖励前茅的地址，便于学习](https://github.com/reddelexc/hackerone-reports)
+-  [redteam_vul-红队作战中比较常遇到的一些重点系统漏洞整理](https://github.com/r0eXpeR/redteam_vul)
+-  [GetShell的姿势总结](./books/GetShell的姿势总结.pdf)-[原文地址](https://mp.weixin.qq.com/s/LHWZLGW8SohoMDTDhk_cdA)
+-  [SharPyShell后渗透框架使用详解](./books/SharPyShell后渗透框架使用详解.pdf)-[原文地址](https://mp.weixin.qq.com/s/22DUmZUhrMLkAlUP5Sj6EQ)
+-  [向日葵软件在渗透测试中的应用](./books/向日葵软件在渗透测试中的应用.pdf)-[原文地址](https://mp.weixin.qq.com/s/5qzYynZI0bdaUnld0GhA4Q)
+-  [Exchange攻击链 CVE-2021-26855&CVE-2021-27065分析](./books/Exchange攻击链%20CVE-2021-26855&CVE-2021-27065分析.pdf)-[原文地址](https://paper.seebug.org/1501/)
+-  [【.Net代码审计】-.Net反序列化文章](https://github.com/Ivan1ee/NET-Deserialize)
+-  [记一次利用mssql上线(关键词：绕过360，远程下载)](./books/记一次利用mssql上线.pdf)
+-  [vuldebug-JAVA 漏洞调试项目，主要为复现、调试java相关的漏洞](https://github.com/0nise/vuldebug)
+-  [【红蓝对抗】SQL Server提权](./books/%E3%80%90%E7%BA%A2%E8%93%9D%E5%AF%B9%E6%8A%97%E3%80%91SQL%20Server%E6%8F%90%E6%9D%83.pdf)-[原文地址](https://mp.weixin.qq.com/s/5LmC_-KK3SMjtxAGG-I4ag)
+-  [Apache Solr组件安全概览(历史漏洞集合)](./books/Apache%20Solr组件安全概览.pdf)-[原文地址](https://mp.weixin.qq.com/s/3WuWUGO61gM0dBpwqTfenQ)
+-  [Web安全服务渗透测试模板](./Web安全服务渗透测试模板.docx)
 
 ## <span id="head9"> 说明</span>
 
 ### 免责声明
+
 > 1.此项目所有文章、代码部分来源于互联网，版权归原作者所有，转载留存的都会写上原著出处，如有遗漏，还请说明，谢谢！  
 > 2.此项目仅供学习参考使用，严禁用于任何非法行为！使用即代表你同意自负责任！  
 > 3.如果项目中涉及到你的隐私或者需要删除的，请issue留言指名具体文件内容，附上你的证明，或者邮箱联系我，核实后即刻删除。  
