@@ -244,6 +244,9 @@
 - [【Windows提权】wesng-Windows提权辅助脚本](https://github.com/bitsadmin/wesng)
 - [【Windows提权】dazzleUP是一款用来帮助渗透测试人员进行权限提升的工具，可以在window系统中查找脆弱面进行攻击。工具包括两部分检查内容，exploit检查和错误配置检查。](https://github.com/hlldz/dazzleUP)
 - [【Windows提权】KernelHub-近二十年Windows权限提升集合](https://github.com/Ascotbe/KernelHub)
+- [【Windows提权】Priv2Admin-Windows提权工具](https://github.com/gtworek/Priv2Admin)
+- [【windows提权】利用有漏洞的技嘉驱动程序来加载恶意的驱动程序提升权限或干掉驱动级保护的杀软](https://github.com/alxbrn/gdrv-loader)
+- [【windows提权】byeintegrity-uac：通过劫持位于本机映像缓存中的DLL绕过UAC](https://github.com/AzAgarampur/byeintegrity-uac)
 
 ## <span id="head6"> PC</span>
 
@@ -330,6 +333,10 @@
 - [CVE-2021-21978- VMware View Planner Harness 4.X 未授权任意文件上传至RCE](https://github.com/GreyOrder/CVE-2021-21978)
 
 - [VMware vCenter Server RCE_SSRF[CVE-2021-21972_3]](./books/VMware%20vCenter%20Server%20RCE_SSRF%5BCVE-2021-21972_3%5D.pdf)-[原文地址](https://mp.weixin.qq.com/s/NoqpuklgwNOalJgAuFnlcA)
+
+- [CVE-2021-1732 Windows 本地权限提升漏洞](https://github.com/jessica0f0116/cve_2021_1732)
+
+- [CVE-2021-31166：HTTP协议栈远程代码执行漏洞](https://github.com/0vercl0k/CVE-2021-31166)
 
 ## <span id="head7"> tools-小工具集版本合</span>
 
@@ -652,10 +659,48 @@
 - [NetDLLSpy-.NET后渗透下的权限维持，附下载DLL](https://github.com/Ivan1ee/NetDLLSpy)
 - [DuckMemoryScan-一个简单寻找包括不限于iis劫持,无文件木马,shellcode免杀后门的工具](https://github.com/huoji120/DuckMemoryScan)
 - [PocList-jar单文件版的各种poc利用工具](https://github.com/Yang0615777/PocList)
-- [Swagger API Exploit-一个 Swagger REST API 信息泄露利用工具](https://github.com/lijiejie/swagger-exp)
+- [swagger-hack:自动化爬取并自动测试所有swagger-ui.html显示的接口](https://github.com/jayus0821/swagger-hack)|[Swagger API Exploit-一个 Swagger REST API 信息泄露利用工具](https://github.com/lijiejie/swagger-exp)
 - [weblogic-framework:weblogic漏洞检测框架](https://github.com/0nise/weblogic-framework)
 - [Finger-web指纹识别工具『质量根据规则库』](https://github.com/EASY233/Finger)
 - [Sunflower_get_Password-一款针对向日葵的识别码和验证码提取工具](https://github.com/wafinfo/Sunflower_get_Password)
+- [LaZagne:一键抓取目标机器上的所有明文密码（有点类似于mimikatz）](https://github.com/AlessandroZ/LaZagne)
+- [gitrecon-从gitlab或者github的提交记录和个人主页提取个人信息，如邮箱、公司、地址、twitter、blog等等](https://github.com/GONZOsint/gitrecon)
+- [SharpClipboard：用c#写的获取剪贴板内容的工具，也可用于cobalt strike中使用](https://github.com/slyd0g/SharpClipboard)
+- [Limelighter-应用程序伪造签名](https://github.com/Tylous/Limelighter)
+- [aLIEz-java杀内存马工具](https://github.com/r00t4dm/aLIEz)
+- [weblogic_memshell-适用于weblogic的无shell的内存马](https://github.com/keven1z/weblogic_memshell)
+- [FofaSpider-Fofa爬虫支持高级查询语句批量爬取](https://github.com/KpLi0rn/FofaSpider)
+- [SpringBoot 持久化 WebShell](https://github.com/threedr3am/ZhouYu)
+- [nuclei引擎的exp库](https://github.com/projectdiscovery/nuclei-templates)
+- [smarGate-内网穿透，c++实现，无需公网IP，小巧，易用，快速，安全，最好的多链路聚合（p2p+proxy）模式](https://github.com/lazy-luo/smarGate)
+- [200个shiro key 来自lscteam的分享](./shiro_keys_200.txt)
+- [shiro-exploit-Shiro反序列化利用工具，支持新版本(AES-GCM)Shiro的key爆破，配合ysoserial，生成回显Payload](https://github.com/Ares-X/shiro-exploit)|[备份下载](./tools/shiro_tool.zip)
+- [fastjson_rce_tool-fastjson命令执行自动化利用工具， remote code execute，JNDI服务利用工具 RMI/LDAP](https://github.com/wyzxxz/fastjson_rce_tool)|[备份下载](./tools/fastjson_tool.jar)
+- [Eeyes(棱眼)-快速筛选真实IP并整理为C段](https://github.com/EdgeSecurityTeam/Eeyes)
+- [EHole(棱洞)2.0 重构版-红队重点攻击系统指纹探测工具](https://github.com/EdgeSecurityTeam/EHole)
+- [ListRDPConnections-C# 读取本机对外RDP连接记录和其他主机对该主机的连接记录，从而在内网渗透中获取更多可通内网网段信息以及定位运维管理人员主机](https://github.com/Heart-Sky/ListRDPConnections)
+- [PandaSniper-熊猫狙击手的Linux C2框架demo](https://github.com/QAX-A-Team/PandaSniper)
+- [CaptfEncoder是一款可扩展跨平台网络安全工具套件，提供网络安全相关编码转换、古典密码、密码学、非对称加密、特殊编码、杂项等工具，并聚合各类在线工具](https://github.com/guyoung/CaptfEncoder)
+- [Evasor - 自动化查找可执行文件的安全评估工具](https://github.com/cyberark/Evasor)
+- [jenkins-attack-framework-Jenkins攻击框架](https://github.com/Accenture/jenkins-attack-framework)
+- [MicroBackdoor-适用于Windows目标的小型便捷C2工具](https://github.com/Cr4sh/MicroBackdoor)
+- [puredns-子域爆破工具](https://github.com/d3mondev/puredns)
+- [DcRat-C#编写的简易远控工具](https://github.com/qwqdanchun/DcRat)
+- [PhishingLnk-windows钓鱼快捷方式link生成工具](https://github.com/qwqdanchun/PhishingLnk)
+- [paragon-Red Team互动平台，旨在统一简单UI后的进攻工具](https://github.com/KCarretto/paragon)
+- [vaf-非常先进的Web Fuzzer工具](https://github.com/d4rckh/vaf)
+- [nginxpwner-寻找常见Nginx错误配置和漏洞的简单工具](https://github.com/stark0de/nginxpwner)
+- [pentest_lab：使用docker-compose搭建常见的几种靶机系统](https://github.com/oliverwiegers/pentest_lab)
+- [SharpWebServer：搭建HTTP和WebDAV服务器来捕获Net-NTLM哈希](https://github.com/mgeeky/SharpWebServer)
+- [interactsh：用于带外数据提取的开源解决方案，一种用于检测导致外部交互的错误的工具，例如：Blind SQLi，Blind CMDi，SSRF等](https://github.com/projectdiscovery/interactsh)
+- [Autoscanner-一款自动化扫描器，其功能主要是遍历所有子域名、及遍历主机所有端口寻找出所有http服务，并使用集成的工具(oneforall、masscan、nmap、crawlergo、dirsearch、xray、awvs、whatweb等)进行扫描，最后集成扫描报告](https://github.com/zongdeiqianxing/Autoscanner)
+- [Z1-AggressorScripts：适用于Cobalt Strike 3.x & 4.x 的插件](https://github.com/z1un/Z1-AggressorScripts)
+- [TongdaOA-通达OA 11.7 任意用户登录](https://github.com/z1un/TongdaOA)
+- [charlotte：又一款免杀 C++ Shellcode加载器](https://github.com/9emin1/charlotte)
+- [Bytecode Viewer是一个高级的轻量级Java字节码查看器](https://github.com/Konloch/bytecode-viewer)
+- [go-crack：go 语言写的弱口令爆破工具](https://github.com/niudaii/go-crack)
+- [Metarget-一个脆弱基础设施自动化构建框架，主要用于快速、自动化搭建从简单到复杂的脆弱云原生靶机环境](https://github.com/brant-ruan/metarget)
+- [NessusToReport-nessus扫描报告自动化生成工具](https://github.com/Hypdncy/NessusToReport)
 
 ## <span id="head8"> 文章/书籍/教程相关</span>
 
@@ -889,6 +934,24 @@
 -  [【红蓝对抗】SQL Server提权](./books/%E3%80%90%E7%BA%A2%E8%93%9D%E5%AF%B9%E6%8A%97%E3%80%91SQL%20Server%E6%8F%90%E6%9D%83.pdf)-[原文地址](https://mp.weixin.qq.com/s/5LmC_-KK3SMjtxAGG-I4ag)
 -  [Apache Solr组件安全概览(历史漏洞集合)](./books/Apache%20Solr组件安全概览.pdf)-[原文地址](https://mp.weixin.qq.com/s/3WuWUGO61gM0dBpwqTfenQ)
 -  [Web安全服务渗透测试模板](./Web安全服务渗透测试模板.docx)
+-  [ThinkPHP v6.0.7 eval反序列化利用链](./books/ThinkPHP%20v6.0.7%20eval%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E5%88%A9%E7%94%A8%E9%93%BE.pdf)-[原文地址](https://xz.aliyun.com/t/9310)
+-  [PwnWiki-免费、自由、人人可编辑的漏洞库](https://www.pwnwiki.org/)
+-  [黑蚂蚁外贸网站系统SemCms代码审计思路分享](./books/黑蚂蚁外贸网站系统SemCms代码审计思路分享.pdf)
+-  [LightCMS全版本后台RCE 0day分析](./books/LightCMS全版本后台RCE%200day分析.pdf)
+-  [全球鹰实验室技术文章沉淀](https://www.studysec.com/)
+-  [ThinkCmf文件包含漏洞fetch函数-过宝塔防火墙Poc](./books/ThinkCmf文件包含漏洞fetch函数-过宝塔防火墙Poc.pdf)
+-  [yii2 反序列化写shell方式利用](./books/yii2%20反序列化写shell方式利用.pdf)
+-  [如何制作冰蝎JSP免杀WebShell](./books/如何制作冰蝎JSP免杀WebShell.pdf)
+-  [HVV行动之泛OA流量应急](./books/HVV行动之泛OA流量应急.pdf)
+-  [Java代码执行漏洞中类动态加载的应用](./books/Java代码执行漏洞中类动态加载的应用.pdf)
+-  [记一次tp5.0.24 getshell](./books/记一次tp5.0.24%20getshell.pdf)-[原文地址](https://xz.aliyun.com/t/9112)
+-  [代码审计之youdiancms最新版getshell漏洞](./books/代码审计之youdiancms最新版getshell漏洞.pdf)
+-  [x微E-Cology WorkflowServiceXml RCE](./books/x微E-Cology%20WorkflowServiceXml%20RCE.pdf)
+-  [某通用流程化管控平台编辑器SSRF到axis的RCE之旅](./books/某通用流程化管控平台编辑器SSRF到axis的RCE之旅.pdf)
+-  [手把手教你如何制作钓鱼软件反制红队](./books/手把手教你如何制作钓鱼软件反制红队.pdf)
+-  [记一次绕过火绒安全提权实战案例](./books/记一次绕过火绒安全提权实战案例.pdf)
+-  [Vulnerability-不定期从棱角社区对外进行公布的一些最新漏洞](https://github.com/EdgeSecurityTeam/Vulnerability)
+-  [Webshell之全方位免杀技巧汇总](./books/Webshell之全方位免杀技巧汇总.pdf)
 
 ## <span id="head9"> 说明</span>
 
