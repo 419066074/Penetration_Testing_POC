@@ -206,6 +206,7 @@
 - [CVE-2021-22986-F5 BIG-IP 远程代码执行漏洞EXP](https://github.com/S1xHcL/f5_rce_poc)
 - [CNVD-2021-10543：MessageSolution 企业邮件归档管理系统 EEA 存在信息泄露漏洞](https://github.com/Henry4E36/CNVD-2021-10543)
 - [CVE-2021-26295-POC](https://github.com/yumusb/CVE-2021-26295-POC)
+- [eyouRCE：（CNVD-2021-26422）亿邮电子邮件系统 远程命令执行漏洞 python版本](https://github.com/Henry4E36/eyouRCE)|[EYouMailRCE：jar单文件版本](https://github.com/Tas9er/EYouMailRCE)
 
 ## <span id="head5"> 提权辅助相关</span>
 
@@ -701,6 +702,10 @@
 - [go-crack：go 语言写的弱口令爆破工具](https://github.com/niudaii/go-crack)
 - [Metarget-一个脆弱基础设施自动化构建框架，主要用于快速、自动化搭建从简单到复杂的脆弱云原生靶机环境](https://github.com/brant-ruan/metarget)
 - [NessusToReport-nessus扫描报告自动化生成工具](https://github.com/Hypdncy/NessusToReport)
+- [cloudflare-bypass：使用Cloudflare Workers来绕过Cloudflare 的机器人验证](https://github.com/jychp/cloudflare-bypass)
+- [安全测试工具集:在学习和渗透测试过程中自己写的一些小脚本、小工具和一些常用字典、木马](https://github.com/echohun/tools)
+- [php_code_analysis：python编写的代码审计脚本（关键词匹配，类似于seay代码审计）](https://github.com/kira2040k/php_code_analysis)
+- [schemeflood：基于Schemeflood技术实现对已安装的软件进行探测](https://github.com/TomAPU/schemeflood)
 
 ## <span id="head8"> 文章/书籍/教程相关</span>
 
@@ -952,6 +957,13 @@
 -  [记一次绕过火绒安全提权实战案例](./books/记一次绕过火绒安全提权实战案例.pdf)
 -  [Vulnerability-不定期从棱角社区对外进行公布的一些最新漏洞](https://github.com/EdgeSecurityTeam/Vulnerability)
 -  [Webshell之全方位免杀技巧汇总](./books/Webshell之全方位免杀技巧汇总.pdf)
+-  [Thinkphp 5.0.x_5.1.x 变量覆盖 RCE 漏洞分析](./books/Thinkphp%205.0.x_5.1.x%20变量覆盖%20RCE%20漏洞分析.pdf)
+-  [TP5.0.xRCE&5.0.24反序列化分析](./books/TP5.0.xRCE&5.0.24反序列化分析.pdf)
+-  [记一次有趣的tp5代码执行](./books/记一次有趣的tp5代码执行.pdf)
+-  [ThinkPHP 5.0.0_5.0.23 RCE 漏洞分析](./books/ThinkPHP%205.0.0_5.0.23%20RCE%20漏洞分析.pdf)
+-  [记一次tp5.0.24](./books/记一次tp5.0.24.pdf)
+-  [权限维持_Windows内核_驱动断链隐藏技术](./books/权限维持_Windows内核_驱动断链隐藏技术.pdf)
+-  [某邮件系统后台管理员任意登录分析](./books/某邮件系统后台管理员任意登录分析.pdf)
 
 ## <span id="head9"> 说明</span>
 
